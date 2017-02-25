@@ -36,6 +36,12 @@ class App extends Component {
         <Content
         showBlog={this.state.showBlog}
         />
+
+        <div id="footer">
+          <footer>
+            Sticky Footer! Works only when body height is auto, not 100%.
+          </footer>
+        </div>
       </div>
     )
   }
