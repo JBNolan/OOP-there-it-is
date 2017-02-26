@@ -5,12 +5,12 @@ const NavBar = props => {
   return(
     <div>
       <nav>
-        <div className='top-bar navbar'>
+        <div className='top-bar navbar topbar'>
           <div className='top-bar-left navbar'>
-            <p onClick={props.handleBlogClick}>Blog</p>
+            <a href={`#`} onClick={props.handleBlogClick}>Blog</a>
           </div>
           <div className='top-bar-right navbar'>
-            <p onClick={props.handleAboutMeClick}>About Me</p>
+            <a href={`#`} onClick={props.handleAboutMeClick}>About Me</a>
           </div>
         </div>
       </nav>

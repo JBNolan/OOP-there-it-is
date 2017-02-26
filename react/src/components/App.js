@@ -37,9 +37,9 @@ class App extends Component {
         showBlog={this.state.showBlog}
         />
 
-        <div id="footer">
+        <div id="footer" className="text-center">
           <footer>
-            Sticky Footer! Works only when body height is auto, not 100%.
+            <a href={`https://github.com/JBNolan`}>GitHub</a> | <a href={`https://www.linkedin.com/in/john-nolan/`}>LinkedIn</a>
           </footer>
         </div>
       </div>
