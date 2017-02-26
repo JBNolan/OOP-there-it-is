@@ -1,6 +1,10 @@
 footer {
-  background: red;
-  padding: 20px;
+  background: #D3D3D3;
+  padding: 10px;
+}
+
+.topbar {
+  background: #D3D3D3;
 }
 
 body {
